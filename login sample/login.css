@@ -1,0 +1,83 @@
+body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: url("minimabackg.png") no-repeat center center;
+      background-size: cover;
+
+      font-family: Arial, sans-serif;
+    }
+
+    .login {
+      width: 350px;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+     border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+
+    .h1 {
+      margin: 0 0 30px 0;
+      font-size: 24px;
+      font-family: 'Trebuchet MS', sans-serif;
+      text-align: center;
+      color: #fafafa;
+    }
+
+    .input-row {
+      position: relative;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .user-icon,
+    .pass-icon {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      opacity: 0.85;
+      pointer-events: none;
+    }
+
+    .uname,
+    .pass {
+      width: 100%;
+      border: none;
+      outline: none;
+      padding: 12px 15px 12px 40px;
+      border-radius: 8px;
+      box-sizing: border-box;
+      background: rgba(255, 255, 255, 0.92);
+      font-size: 16px;
+    }
+
+    .login-btn {
+      width: 100%;
+      padding: 12px 15px;
+      border: none;
+      border-radius: 8px;
+      background: linear-gradient(135deg, rgb(124, 108, 246), rgb(75, 72, 248));
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      font-family: Gorgia, serif;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .login-btn:hover {
+      cursor: pointer;
+      background: linear-gradient(135deg, rgb(75, 72, 248), rgb(124, 108, 246));
+      opacity: 0.9;
+    }
